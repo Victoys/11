@@ -1,0 +1,124 @@
+Package: com.julioverne.cydown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: debs/cydown.deb
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.matchstic.reprovision
+Version: 0.5.2~EOL
+Architecture: iphoneos-arm
+Maintainer: Matt Clarke <matt@incendo.ws>
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Filename: debs/reprovision.deb
+Size: 14406348
+MD5sum: 4064144eed72b264038cb91d9e477f1a
+SHA1: 1287ffa0f2919789fc86a96267e8cb3410715ff8
+SHA256: 11efa2b9c737860df3ebe08eeab429bfa664612c4b22b5e8aa237f20785b8e5d
+Section: System
+Priority: optional
+Homepage: https://github.com/Matchstic/Extender-Installer
+Description: Re-sign applications on your device
+Author: Matt Clarke <matt@incendo.ws>
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Dev: Matt Clarke <matt@incendo.ws>
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Name: ReProvision
+
+Package: com.victoys.killx
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>=11.0), mobilesubstrate
+Filename: debs/killx.deb
+Size: 60648
+MD5sum: 688a3f90aea3a32434f53f248772613c
+SHA1: b5d18f76cd26c69528fa63d572cf732ade93b78a
+SHA256: e4dd865615cc30332fe8c414e2193f3a84a72712bb2db288ea809f3c4b66cf67
+Section: Tweaks
+Description: 下拉清除全部后台进程、不支持iOS 13
+Author: Victoys
+Name: KillX
+
+Package: com.victoys.libertylite
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: debs/libertylite.deb
+Size: 82216
+MD5sum: d5e58afa000f94d87941c57845dc5b16
+SHA1: cfef5775df253d379cac93afeb9a3f2bfec6372f
+SHA256: 5343adba423e5acfc1826b3831895040212da933e5781254f9af07be7d0a73a6
+Section: Tweaks
+Description: 屏蔽软件对越狱的检测
+Author: Victoys
+Name: Liberty Lite
+
+Package: com.victoys.localiapstore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
+Filename: debs/localiapstore.deb
+Size: 42316
+MD5sum: d9112b9d607749c285af505f8c0ecf4a
+SHA1: ee92ecc35c595eb6aabd8307c0bbb42b234a1fe1
+SHA256: fa4b7f87075d4ac6efdd6b2e3a5c108544f7143fbc50cc00f9ed30c662d99dbf
+Section: Tweaks
+Description: 软件内购破解、已完全汉化
+Author: Victoys
+Dev: Victoys
+Name: LocalIAPStore
+Sponsor: Victoys
+
+Package: com.victoys.systeminfo
+Version: 2.7.2-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/systeminfo.deb
+Size: 264684
+MD5sum: 997e414f15b746d5affa1e3b8ba4b270
+SHA1: a28003096cb0266cdf902761ce235652cc259559
+SHA256: 6f6b99c7a337136a31ac066bb9fd03f24038aa3ca9ef3d53e270e79339e6edcd
+Section: Tweaks
+Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
+Author: Victoys
+Name: System Info
+
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: debs/appsyncunified.deb
+Size: 42058
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
