@@ -1,3 +1,23 @@
+Package: com.exile90.icleanerpro
+Version: 7.9.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/icleanerpro.deb
+Size: 4772402
+MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
+SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
+SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
 Package: com.julioverne.cydown
 Version: 7.1.1
 Architecture: iphoneos-arm
@@ -37,6 +57,21 @@ Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
+
+Package: com.victoys.jd
+Version: 0.2-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/jd.deb
+Size: 112420
+MD5sum: d542586abc0e008b0d12dbd1e6514ed4
+SHA1: fbc078e4cb0c201a8012a095c85c56dd0299f28a
+SHA256: 94a59274f27bcac4df5b783df6ee106dc335139a5f88ca4b6f6580888ba88c10
+Section: Tweaks
+Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
+Author: Victoys
+Name: 京东优惠券
 
 Package: com.victoys.killx
 Version: 1.2
@@ -100,6 +135,21 @@ Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
 Name: System Info
+
+Package: com.victoys.tb
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/tb.deb
+Size: 131998
+MD5sum: d8643efb28cf86094dfed6f95bada189
+SHA1: 216a49d62ca909183cd7997f6b0edd712400d93b
+SHA256: 09e3ed88b84cf2f5877c0bca6c380615eeae3821e71dffb77b4f4533a4864365
+Section: Tweaks
+Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
+Author: Victoys
+Name: 淘宝优惠券
 
 Package: net.angelxwind.appsyncunified
 Version: 84.0
