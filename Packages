@@ -58,6 +58,21 @@ Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 
+Package: com.victoys.Flex3
+Version: 1.0-B63
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/flex3.deb
+Size: 15432236
+MD5sum: 34052d84c1009e8d3e9ff9c00cc460e1
+SHA1: 58b4f120dcc56cc53e14dd1b33977f3c6ac3f3c9
+SHA256: 4a88d03f64b7e511d729897c3bff0085daff10329dfcf50cbc19b4fd5795f309
+Section: Tweaks
+Description: 定制开发属于自己的个性插件
+Author: Victoys
+Name: Flex 3
+
 Package: com.victoys.jd
 Version: 0.2-2
 Architecture: iphoneos-arm
