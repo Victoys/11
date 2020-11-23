@@ -1,23 +1,3 @@
-Package: com.exile90.icleanerpro
-Version: 7.9.0
-Architecture: iphoneos-arm
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debs/icleanerpro.deb
-Size: 4772402
-MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
-SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
-SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro
-
 Package: com.julioverne.cydown
 Version: 7.1.1
 Architecture: iphoneos-arm
@@ -36,28 +16,6 @@ Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cy
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
-Package: com.matchstic.reprovision
-Version: 0.5.2~EOL
-Architecture: iphoneos-arm
-Maintainer: Matt Clarke <matt@incendo.ws>
-Depends: firmware (>= 9.0)
-Replaces: com.matchstic.Extender-Installer
-Provides: com.matchstic.Extender-Installer
-Filename: debs/reprovision.deb
-Size: 14406348
-MD5sum: 4064144eed72b264038cb91d9e477f1a
-SHA1: 1287ffa0f2919789fc86a96267e8cb3410715ff8
-SHA256: 11efa2b9c737860df3ebe08eeab429bfa664612c4b22b5e8aa237f20785b8e5d
-Section: System
-Priority: optional
-Homepage: https://github.com/Matchstic/Extender-Installer
-Description: Re-sign applications on your device
-Author: Matt Clarke <matt@incendo.ws>
-Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
-Dev: Matt Clarke <matt@incendo.ws>
-Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
-Name: ReProvision
-
 Package: com.victoys.Flex3
 Version: 1.0-B63
 Architecture: iphoneos-arm
@@ -73,35 +31,67 @@ Description: 定制开发属于自己的个性插件
 Author: Victoys
 Name: Flex 3
 
-Package: com.victoys.jd
-Version: 0.2-2
+Package: com.victoys.appsync
+Version: 84.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/jd.deb
-Size: 112420
-MD5sum: d542586abc0e008b0d12dbd1e6514ed4
-SHA1: fbc078e4cb0c201a8012a095c85c56dd0299f28a
-SHA256: 94a59274f27bcac4df5b783df6ee106dc335139a5f88ca4b6f6580888ba88c10
+Depends: firmware (>= 10.0)
+Filename: debs/appsync.deb
+Size: 40742
+MD5sum: 2afa1a8027b84cbc048c09733bf97807
+SHA1: 877312d0b03f4df87b45e3d3ccdd5c21ad5f3e92
+SHA256: b708adc67986c660dedb568538a8f7b4b15062696d08636d9c0f17b2b9922a99
 Section: Tweaks
-Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
+Description: 关闭iOS的签名验证，可以直装砸壳版App
 Author: Victoys
-Name: 京东优惠券
+Name: AppSync
 
-Package: com.victoys.killx
-Version: 1.2
+Package: com.victoys.aysx
+Version: 0.1-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>=11.0), mobilesubstrate
-Filename: debs/killx.deb
-Size: 60648
-MD5sum: 688a3f90aea3a32434f53f248772613c
-SHA1: b5d18f76cd26c69528fa63d572cf732ade93b78a
-SHA256: e4dd865615cc30332fe8c414e2193f3a84a72712bb2db288ea809f3c4b66cf67
+Depends: mobilesubstrate
+Filename: debs/aysx.deb
+Size: 48366
+MD5sum: 6f10ce2df2107ea1fddfd23f09a17f4a
+SHA1: 9d120c41284f996f51284d477b7aa84d38e160c9
+SHA256: 555675403b03667c997fd3c6880dc0e30aeff1d0f78fef6471d8f1a01752e2fa
 Section: Tweaks
-Description: 下拉清除全部后台进程、不支持iOS 13
+Description: 爱阅书香开启会员特权
 Author: Victoys
-Name: KillX
+Name: 爱阅书香
+
+Package: com.victoys.gps
+Version: 1.9
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/fakegpspro.deb
+Size: 1717132
+MD5sum: 5f407cd170075a5ae691ae20f908acbc
+SHA1: 408138a4e240422a9d2c1358ec5a5e7f859e9ea1
+SHA256: 64b513936a7fb962f5d8d6038aeedf03e182085ac491ea68a1634907b6c07272
+Section: Tweaks
+Description: 定位修改器、不支持iOS 11之后的系统
+Author: Victoys
+Dev: Victoys
+Name: Fake GPS Pro
+Sponsor: Victoys
+
+Package: com.victoys.icleanerpro764
+Version: 7.6.4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 10.0)
+Filename: debs/icleanerpro.deb
+Size: 3570322
+MD5sum: c171a52a284673c30724615b9390a108
+SHA1: 497d7392b0706390d92d14a7c76886ddd1ba4095
+SHA256: 0bd3fcca64c32f20f5d9a431b894f12d619a70c3fe4ca477ff5ca51acc761bc6
+Section: Utilities
+Description: 缓存垃圾清理工具
+Author: Victoys
+Name: iCleaner Pro
 
 Package: com.victoys.libertylite
 Version: 0.2.12
@@ -136,54 +126,35 @@ Dev: Victoys
 Name: LocalIAPStore
 Sponsor: Victoys
 
-Package: com.victoys.systeminfo
-Version: 2.7.2-2
+Package: com.victoys.netcontrol
+Version: 1.0.1-8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/systeminfo.deb
-Size: 264684
-MD5sum: 997e414f15b746d5affa1e3b8ba4b270
-SHA1: a28003096cb0266cdf902761ce235652cc259559
-SHA256: 6f6b99c7a337136a31ac066bb9fd03f24038aa3ca9ef3d53e270e79339e6edcd
-Section: Tweaks
-Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
+Filename: debs/netcontrol.deb
+Size: 693972
+MD5sum: 00d39fc3db346c725694f078da262578
+SHA1: eabf5babb1540e386e1e07f03265d882f999751b
+SHA256: 3528f96f2bcd293416484e65d4b7036fcb8a45325b3d766c750483c6d0e278ce
+Section: Utilities
+Description: 激活国行iOS13自带网络开关
 Author: Victoys
-Name: System Info
+Dev: Victoys
+Name: NetControl
+Sponsor: Victoys
 
-Package: com.victoys.tb
-Version: 2.1.0
+Package: com.victoys.reprovision
+Version: 0.5.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/tb.deb
-Size: 131998
-MD5sum: d8643efb28cf86094dfed6f95bada189
-SHA1: 216a49d62ca909183cd7997f6b0edd712400d93b
-SHA256: 09e3ed88b84cf2f5877c0bca6c380615eeae3821e71dffb77b4f4533a4864365
-Section: Tweaks
-Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
+Depends: firmware (>= 10.0)
+Filename: debs/reprovision.deb
+Size: 13740826
+MD5sum: 2efbaa87b9959a879a83efb157dacae1
+SHA1: 1294f6217ef65e1f5bd24b80b663373ac866679a
+SHA256: e52bee548d72cfa7fbd47dd16550677c3df6def2beac960ead90ccb188a9df1c
+Section: System
+Description: 自签名IPA应用
 Author: Victoys
-Name: 淘宝优惠券
-
-Package: net.angelxwind.appsyncunified
-Version: 84.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/appsyncunified.deb
-Size: 42058
-MD5sum: 979c1973c503b9eb4e9e1151d97c4421
-SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
-SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified
+Name: ReProvision
 
