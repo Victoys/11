@@ -1,3 +1,23 @@
+Package: com.exile90.icleanerpro
+Version: 7.7.5
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/icleanerpro.deb
+Size: 5385562
+MD5sum: 5b6209151608ac092b4805833691bd9d
+SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
+SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
 Package: com.julioverne.cydown
 Version: 7.1.1
 Architecture: iphoneos-arm
@@ -78,21 +98,6 @@ Dev: Victoys
 Name: Fake GPS Pro
 Sponsor: Victoys
 
-Package: com.victoys.icleanerpro764
-Version: 7.6.4
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 10.0)
-Filename: debs/icleanerpro.deb
-Size: 3570322
-MD5sum: c171a52a284673c30724615b9390a108
-SHA1: 497d7392b0706390d92d14a7c76886ddd1ba4095
-SHA256: 0bd3fcca64c32f20f5d9a431b894f12d619a70c3fe4ca477ff5ca51acc761bc6
-Section: Utilities
-Description: 缓存垃圾清理工具
-Author: Victoys
-Name: iCleaner Pro
-
 Package: com.victoys.libertylite
 Version: 0.2.12
 Architecture: iphoneos-arm
@@ -157,4 +162,19 @@ Section: System
 Description: 自签名IPA应用
 Author: Victoys
 Name: ReProvision
+
+Package: com.victoys.systeminfo
+Version: 2.7.2-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/systeminfo.deb
+Size: 264684
+MD5sum: 997e414f15b746d5affa1e3b8ba4b270
+SHA1: a28003096cb0266cdf902761ce235652cc259559
+SHA256: 6f6b99c7a337136a31ac066bb9fd03f24038aa3ca9ef3d53e270e79339e6edcd
+Section: Tweaks
+Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
+Author: Victoys
+Name: System Info
 
