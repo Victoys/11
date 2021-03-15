@@ -149,17 +149,17 @@ Name: NetControl
 Sponsor: Victoys
 
 Package: com.victoys.reprovision
-Version: 0.5.2
+Version: 0.5.2-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 10.0)
 Filename: debs/reprovision.deb
-Size: 13740826
-MD5sum: 2efbaa87b9959a879a83efb157dacae1
-SHA1: 1294f6217ef65e1f5bd24b80b663373ac866679a
-SHA256: e52bee548d72cfa7fbd47dd16550677c3df6def2beac960ead90ccb188a9df1c
+Size: 13740888
+MD5sum: 05b783160386bfea5c99ce54ba36ce28
+SHA1: 7480268e1752d6b1dc6ebb3d696888515ce28f80
+SHA256: 3af5f959376dd80676d663e0ec0392f20bed2b15562baa32a1388e2984dcf01c
 Section: System
-Description: 自签名IPA应用
+Description: 自签名IPA应用，不支持iOS14，替换2021.01.28最新证书文件
 Author: Victoys
 Name: ReProvision
 
