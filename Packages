@@ -52,17 +52,17 @@ Author: Victoys
 Name: Flex 3
 
 Package: com.victoys.appsync
-Version: 84.0
+Version: 32.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 10.0)
+Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/appsync.deb
-Size: 40742
-MD5sum: 2afa1a8027b84cbc048c09733bf97807
-SHA1: 877312d0b03f4df87b45e3d3ccdd5c21ad5f3e92
-SHA256: b708adc67986c660dedb568538a8f7b4b15062696d08636d9c0f17b2b9922a99
+Size: 19352
+MD5sum: ff9e62e2326219741ab462a10c7ae9fe
+SHA1: 9ca064adcad34195d8805a0e2d4d50e01ac8c0df
+SHA256: d5f41cacf644c30d3a8774afb19eba3cda81d799ab3c2702487aad1611fa9328
 Section: Tweaks
-Description: 关闭iOS的签名验证，可以直装砸壳版App
+Description: 安装未签名的IPA应用程序
 Author: Victoys
 Name: AppSync
 
